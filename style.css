@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  background-color: #e0ebe8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  text-align: right;
+}
+
+.menu li{
+  list-style: none;
+}
+.menu ul li{
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 55px;
+  margin-left: 55px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #008080;
+}
+
+#welcome-section{
+  background-color: #e0ebe8;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+}
+#welcome-section h1{
+  padding-top: 45vh;
+  font-size: 2em;
+}
+
+.green{
+  color: green;
+}
+
+
+.projects-header{
+  padding: 2em;
+  text-align: center;
+  color: #008080;
+  font-weight: normal;
+}
+
+.all-projects{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  grid-template-rows: 280px 280px 100px;
+  grid-gap: 50px;
+  grid-template-areas:
+    "advert1 advert2 advert3"
+    "advert4 advert5 advert6";
+}
+.item1 {
+  grid-area: advert1;
+  display: grid;
+  grid-template-rows: 180px 20px;
+  border: 3px solid;
+  border-color: #e0ebe8;
+  height: 210px;
+}
+.item2 {
+  grid-area: advert2;
+  grid-template-rows: 180px 20px;
+  border: 3px solid;
+  border-color: #e0ebe8;
+  height: 210px;
+}
+.item3 {
+  grid-area: advert3;
+  grid-template-rows: 180px 20px;
+  border: 3px solid;
+  border-color: #e0ebe8;
+  height: 210px;
+}
+.item4 {
+  grid-area: advert4;
+  grid-template-rows: 180px 20px;
+  border: 3px solid;
+  border-color: #e0ebe8;
+  height: 210px;
+}
+.item5 {
+  grid-area: advert5;
+  grid-template-rows: 180px 20px;
+  border: 3px solid;
+  border-color: #e0ebe8;
+  height: 210px;
+}
+.item6 {
+  grid-area: advert6;
+  grid-template-rows: 180px 20px;
+  border: 3px solid;
+  border-color: #e0ebe8;
+  height: 210px;
+}
+.project-pic{
+  width: 274px;
+}
+.all-projects a{
+  text-decoration: none;
+  color: #008080;
+  font-size: 1.2em;
+}
+
+.btn{
+/* wyśrodkuj to -.-*/
+text-align: center;
+
+}
+
+.show-all{
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 30px;
+  background-color: #e0ebe8;
+  color: #008080;
+  cursor: pointer;
+  border: 2px solid #90C695;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding-top: 7px;
+}
+/*
+.item3 {
+  background: PaleTurquoise;
+  grid-area: content;
+   enter your code below this line
+  display: grid;
+  grid-template-columns: 200px 1fr;
+   enter your code above this line
+} */
